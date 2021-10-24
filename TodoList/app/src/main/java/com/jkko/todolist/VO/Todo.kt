@@ -1,0 +1,6 @@
+package com.jkko.todolist.VO
+
+data class Todo(
+    val text: String,
+    var isDone: Boolean = false
+)
